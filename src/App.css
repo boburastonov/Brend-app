@@ -1,7 +1,41 @@
-.App {
-  text-align: center;
+.left-section, .right-section {
+  width: 340px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid #F1BD07;
+  box-shadow: -3px 0px 3px rgb(241, 189, 7, .4);
+  padding: 15px 20px;
+  border-radius: 25px;
+  overflow-y: auto;
 }
 
+.right-section {
+  margin-left: 35px;
+}
+ 
+.left-section::-webkit-scrollbar, .right-section::-webkit-scrollbar {
+  display: none;
+}
+
+.section-header img {
+  width: 60px;
+  margin-left: -11px;
+  margin-bottom: 17px;
+}
+
+.section-title  {
+    font-size: 23px;
+    color: #351417;
+    margin-bottom: 8px;
+}
+
+.text {
+  color: #351417;
+    font-size: 15px;
+    margin-top: 14px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
