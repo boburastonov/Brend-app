@@ -1,5 +1,26 @@
+<<<<<<< HEAD
 .payment-box {
     display: flex;
+=======
+.corner-bg {
+    width: 112px;
+    height: 157px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #F1BD07;
+    border-radius: 100% 0% 100% 0% / 0% 9% 91% 100% ;
+}
+
+.payment-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.payment-box:not(:last-child) {
+    margin-bottom: 15px;
+>>>>>>> 8073ae8 (add product functions)
 }
 
 .brand-wrapper {
@@ -12,7 +33,62 @@
     border: 0;
 }
 
+<<<<<<< HEAD
 .brand-wrapper img{
     width: 75px;
     transform: rotate(-20deg)
+=======
+.brand-wrapper img {
+    width: 75px;
+    transform: rotate(-20deg);
+}
+
+.payment-info {
+    margin: 0;
+    margin-left: 35px;
+}
+
+.product-name, .product-price {
+    color: #351417;
+    font-size: 19px;
+}
+
+.product-price {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-count {
+    display: flex;
+    align-items: center;
+}
+
+.count-wrapper {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 220, 223);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.count-wrapper:hover {
+    opacity: 0.9;
+}
+
+.count-wrapper:active {
+    opacity: 0.8;
+}
+
+.dec-wrapper {
+    margin-right: 15px;
+}
+
+.inc-wrapper {
+    margin-left: 15px;
+>>>>>>> 8073ae8 (add product functions)
 }

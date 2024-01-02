@@ -5,6 +5,10 @@
 
 body {
     font-family: sans-serif;
+<<<<<<< HEAD
+=======
+    position: relative;
+>>>>>>> 8073ae8 (add product functions)
 }
 
 .container{
