@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import "./App.css";
 import Product from "./Product";
 import Payment from "./Payment";
@@ -8,8 +8,10 @@ import logoImg from "./img/nike.png";
 const App = (e) => {
 =======
 import logoImg from "./assets/nike.png";
+import data from "./MockData";
 
 const App = () => {
+<<<<<<< HEAD
 >>>>>>> 8073ae8 (add product functions)
   const [stateArr, newState] = useState({
     brands: [
@@ -89,6 +91,10 @@ const App = () => {
       },
     ],
   });
+=======
+  const [state, setState] = useState(data);
+  const [newState, newSetState] = useState([]);
+>>>>>>> 77090cb (add product function)
 
 >>>>>>> 8073ae8 (add product functions)
   return (
@@ -98,10 +104,12 @@ const App = () => {
           <img src={logoImg} alt="Logo" />
           <h1 className="section-title">Picked items</h1>
         </div>
-        {stateArr.brands.map(function (item) {
+        {state.map(function (item) {
+          console.log(item);
           return (
-            <>
+            <Fragment key={item.productID}>
               <Product
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 productId={item.productID}
@@ -110,8 +118,14 @@ const App = () => {
                 productHeading={item.productHeading}
                 productInfo={item.productInfo}
                 productPrice={item.productPrice}
+=======
+                state={state}
+                setState={setState}
+                newState={newState}
+                newSetState={newSetState}
+>>>>>>> 77090cb (add product function)
               />
-            </>
+            </Fragment>
           );
         })}
       </section>
