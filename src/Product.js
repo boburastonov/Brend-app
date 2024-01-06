@@ -6,10 +6,9 @@ const Product = (props) => {
     const newProducts = [...state];
     newProducts.splice(index, 1, { ...item, added: true });
     setState(newProducts);
-    console.log(setState);
     setNewState((prev) => [...prev, { ...item, count: 1 }]);
   };
-  return state.map((item) => (
+  return state.map((item, index) => (
     <Fragment key={item.productID}>
       <div className="corner-bg"></div>
       <div className="box">

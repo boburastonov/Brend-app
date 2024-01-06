@@ -20,7 +20,6 @@ function Payment(props) {
     const newCart = [...newState];
     newCart.splice(index, 1, { ...item, count: item.count + 1 });
     setNewState(newCart);
-    console.log(item, index);
   };
   const handleDecrement = (item, index) => {
     if (item.count === 1) return handleRemove(item, index);

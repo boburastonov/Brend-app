@@ -21,7 +21,7 @@ const App = () => {
                 state={state}
                 setState={setState}
                 newState={newState}
-                newSetState={setNewState}
+                setNewState={setNewState}
               />
             </Fragment>
           );
