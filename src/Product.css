@@ -39,35 +39,6 @@
     background-color: #d5dcdf;
 }
 
-/* .box:nth-child(1) .img-wrapper, .box:nth-child(5) .img-wrapper {
-    background-color: #d5dcdf;
-}
-
-.box:nth-child(2) .img-wrapper {
-    background-color: #452b74;
-}
-
-.box:nth-child(3) .img-wrapper {
-    background-color: #f1bd07;
-}
-
-.box:nth-child(4) .img-wrapper {
-    background-color: #fd4e43;
-}
-
-.box:nth-child(6) .img-wrapper {
-    background-color: #f1f2f3;
-}
-
-.box:nth-child(7) .img-wrapper {
-    background-color: #1fa4d7;
-}
-
-.box:nth-child(8) .img-wrapper {
-    background-color: #ac001d;
-} */
-
-
 .brand-img{
     width: 280px;
     transform: rotate(-20deg);

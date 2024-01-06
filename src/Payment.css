@@ -15,7 +15,6 @@
 .payment-box {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
 }
 
 .payment-box:not(:last-child) {
@@ -65,14 +64,15 @@
 }
 
 .count-wrapper {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     padding: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(213, 220, 223);
     border-radius: 50%;
+    border: 0;
     cursor: pointer;
 }
 

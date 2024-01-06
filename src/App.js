@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Product from "./Product";
 import Payment from "./Payment";
@@ -93,8 +93,12 @@ const App = () => {
   });
 =======
   const [state, setState] = useState(data);
+<<<<<<< HEAD
   const [newState, newSetState] = useState([]);
 >>>>>>> 77090cb (add product function)
+=======
+  const [newState, setNewState] = useState([]);
+>>>>>>> ff8b8f1 (Add your cart functions)
 
 >>>>>>> 8073ae8 (add product functions)
   return (
@@ -104,6 +108,7 @@ const App = () => {
           <img src={logoImg} alt="Logo" />
           <h1 className="section-title">Picked items</h1>
         </div>
+<<<<<<< HEAD
         {state.map(function (item) {
           console.log(item);
           return (
@@ -128,6 +133,14 @@ const App = () => {
             </Fragment>
           );
         })}
+=======
+        <Product
+          state={state}
+          setState={setState}
+          newState={newState}
+          setNewState={setNewState}
+        />
+>>>>>>> ff8b8f1 (Add your cart functions)
       </section>
       <section className="right-section">
 <<<<<<< HEAD
@@ -139,9 +152,17 @@ const App = () => {
         <div className="section-header srt">
           <img src={logoImg} alt="Logo" />
           <h1 className="section-title">Your cart</h1>
+<<<<<<< HEAD
 >>>>>>> 8073ae8 (add product functions)
+=======
+          {/* <p className="text">Your cart is empty</p> */}
+>>>>>>> ff8b8f1 (Add your cart functions)
         </div>
-        <Payment />
+        <Payment
+          state={state}
+          setState={setState}
+          newState={newState}
+          setNewState={setNewState}/>
       </section>
     </>
   );
