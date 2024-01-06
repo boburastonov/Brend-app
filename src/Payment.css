@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-.payment-box {
-    display: flex;
-=======
 .corner-bg {
     width: 112px;
     height: 157px;
@@ -19,7 +15,6 @@
 
 .payment-box:not(:last-child) {
     margin-bottom: 15px;
->>>>>>> 8073ae8 (add product functions)
 }
 
 .brand-wrapper {
@@ -32,12 +27,7 @@
     border: 0;
 }
 
-<<<<<<< HEAD
 .brand-wrapper img{
-    width: 75px;
-    transform: rotate(-20deg)
-=======
-.brand-wrapper img {
     width: 75px;
     transform: rotate(-20deg);
 }
@@ -90,5 +80,4 @@
 
 .inc-wrapper {
     margin-left: 15px;
->>>>>>> 8073ae8 (add product functions)
 }

@@ -9,32 +9,21 @@
   padding: 15px 20px;
   border-radius: 25px;
   overflow-y: auto;
-<<<<<<< HEAD
-=======
   position: relative;
   z-index: 999;
->>>>>>> 8073ae8 (add product functions)
 }
 
 .right-section {
   margin-left: 35px;
 }
-<<<<<<< HEAD
- 
-=======
-
->>>>>>> 8073ae8 (add product functions)
 .left-section::-webkit-scrollbar, .right-section::-webkit-scrollbar {
   display: none;
 }
 
-<<<<<<< HEAD
-=======
 .srt {
   margin-bottom: 27px;
 }
 
->>>>>>> 8073ae8 (add product functions)
 .section-header img {
   width: 60px;
   margin-left: -11px;
@@ -42,26 +31,20 @@
 }
 
 .section-title  {
-<<<<<<< HEAD
     font-size: 23px;
     color: #351417;
     margin-bottom: 8px;
-=======
   font-size: 23px;
   color: #351417;
   margin-bottom: 8px;
->>>>>>> 8073ae8 (add product functions)
 }
 
 .text {
   color: #351417;
-<<<<<<< HEAD
     font-size: 15px;
     margin-top: 14px;
-=======
   font-size: 15px;
   margin-top: 14px;
->>>>>>> 8073ae8 (add product functions)
 }
 .App-logo {
   height: 40vmin;
