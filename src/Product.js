@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
-import './Product.css'
+import "./Product.css";
+
 const Product = (props) => {
   const { state, setState, newState, setNewState } = props;
   const addedItem = (item, index) => {
@@ -18,9 +19,13 @@ const Product = (props) => {
         <h1 className="product-heading">{item.productHeading}</h1>
         <p className="product-info">{item.productInfo}</p>
         <div className="product-info-price">
-          <p className="product-price">{item.productPrice}</p>
-          <button className="add-card-btn" disabled={item.added ? true : false} onClick={() => addedItem(item, index)}>
-            {item.added ? "Add" : "ADD TO CARD"}
+          <p className="product-price">${item.productPrice}</p>
+          <button
+            className="add-card-btn"
+            disabled={item.added ? true : false}
+            onClick={() => addedItem(item, index)}
+          >
+            {item.added ? "Added" : "ADD TO CARD"}
           </button>
         </div>
       </div>

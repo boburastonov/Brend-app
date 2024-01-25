@@ -15,6 +15,7 @@ function Payment(props) {
     newProducts.splice(index, 1, { ...item, added: false });
     setState(newProducts);
     filterCart(item.productID);
+    {document.querySelector(".text").classList.remove("hidden")};
   };
   const handleIncrement = (item, index) => {
     const newCart = [...newState];
@@ -32,15 +33,15 @@ function Payment(props) {
   return (
     <>
       <div className="corner-bg"></div>
-      {newState.map((item) => (
-        <div className="payment-box" >
-          <div className="brand-wrapper">
-            <img src={item.productImage} alt="nike" key={item.productID}/>
-          </div>
-          <div className="payment-info">
-            <h3 className="product-name">{item.productHeading}</h3>
-            <h1 className="product-price">{item.productPrice}</h1>
-            {newState.map((item, index) => (
+      {newState.map((item, index) => {
+        return (
+          <div className="payment-box" key={item.productID}>
+            <div className="brand-wrapper">
+              <img src={item.productImage} alt="nike" key={item.productID} />
+            </div>
+            <div className="payment-info">
+              <h3 className="product-name">{item.productHeading}</h3>
+              <h1 className="product-price">{(item.productPrice * item.count).toFixed(2)}</h1>
               <div className="product-count">
                 <button
                   className="dec-wrapper count-wrapper"
@@ -56,10 +57,10 @@ function Payment(props) {
                   <span>&#10153;</span>
                 </button>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </>
 
   );

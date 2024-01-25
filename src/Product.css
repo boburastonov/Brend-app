@@ -80,3 +80,8 @@
 .add-card-btn:active{
     opacity: 0.8;
 }
+
+.hidden {
+    display: none;
+}
+

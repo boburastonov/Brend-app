@@ -31,21 +31,23 @@
 }
 
 .section-title  {
-    font-size: 23px;
-    color: #351417;
-    margin-bottom: 8px;
+  font-size: 23px;
+  color: #351417;
+  margin-bottom: 25px;
   font-size: 23px;
   color: #351417;
   margin-bottom: 8px;
 }
 
+.pr {
+  margin-bottom: 25px;
+}
+
 .text {
   color: #351417;
-    font-size: 15px;
-    margin-top: 14px;
   font-size: 15px;
-  margin-top: 14px;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
