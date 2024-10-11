@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./Payment.css";
 
@@ -15,7 +14,9 @@ function Payment(props) {
     newProducts.splice(index, 1, { ...item, added: false });
     setState(newProducts);
     filterCart(item.productID);
-    {document.querySelector(".text").classList.remove("hidden")};
+    {
+      document.querySelector(".text").classList.remove("hidden");
+    }
   };
   const handleIncrement = (item, index) => {
     const newCart = [...newState];
@@ -41,7 +42,9 @@ function Payment(props) {
             </div>
             <div className="payment-info">
               <h3 className="product-name">{item.productHeading}</h3>
-              <h1 className="product-price">{(item.productPrice * item.count).toFixed(2)}</h1>
+              <h1 className="product-price">
+                {(item.productPrice * item.count).toFixed(2)}
+              </h1>
               <div className="product-count">
                 <button
                   className="dec-wrapper count-wrapper"
@@ -62,7 +65,6 @@ function Payment(props) {
         );
       })}
     </>
-
   );
 }
 
