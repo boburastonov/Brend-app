@@ -1,10 +1,10 @@
 .bg {
-    width: 100vw;
-    height: 300px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border-radius: 100% 0% 100% 0% / 40% 100% 0% 60%   ;
-    background: #F1BD07;
-    z-index: -10000;
-  }
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 300px;
+  z-index: -10000;
+  position: absolute;
+  background: #f1bd07;
+  border-radius: 100% 0% 100% 0% / 40% 100% 0% 60%;
+}

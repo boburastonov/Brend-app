@@ -1,83 +1,84 @@
 .corner-bg {
-    width: 112px;
-    height: 157px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #F1BD07;
-    border-radius: 100% 0% 100% 0% / 0% 9% 91% 100% ;
+  top: 0;
+  left: 0;
+  width: 112px;
+  height: 157px;
+  position: absolute;
+  background-color: #f1bd07;
+  border-radius: 100% 0% 100% 0% / 0% 9% 91% 100%;
 }
 
 .payment-box {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 .payment-box:not(:last-child) {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .brand-wrapper {
-    display: flex;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: rgb(213, 220, 223);
-    border: 0;
+  border: 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  background-color: rgb(213, 220, 223);
 }
 
-.brand-wrapper img{
-    width: 75px;
-    transform: rotate(-20deg);
+.brand-wrapper img {
+  width: 75px;
+  transform: rotate(-20deg);
 }
 
 .payment-info {
-    margin: 0;
-    margin-left: 35px;
+  margin: 0;
+  margin-left: 35px;
 }
 
-.product-name, .product-price {
-    color: #351417;
-    font-size: 19px;
+.product-name,
+.product-price {
+  font-size: 19px;
+  color: #351417;
 }
 
 .product-price {
-    font-size: 23px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .product-count {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .count-wrapper {
-    width: 25px;
-    height: 25px;
-    padding: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(213, 220, 223);
-    border-radius: 50%;
-    border: 0;
-    cursor: pointer;
+  border: 0;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 220, 223);
 }
 
 .count-wrapper:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .count-wrapper:active {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .dec-wrapper {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .inc-wrapper {
-    margin-left: 15px;
+  margin-left: 15px;
 }

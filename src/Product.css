@@ -1,87 +1,83 @@
 .corner-bg {
-    width: 112px;
-    height: 157px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #F1BD07;
-    border-radius: 100% 0% 100% 0% / 0% 9% 91% 100% ;
-    z-index: -1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 112px;
+  height: 157px;
+  position: absolute;
+  background-color: #f1bd07;
+  border-radius: 100% 0% 100% 0% / 0% 9% 91% 100%;
 }
 .box {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .box:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.img-wrapper{
-    width: 306px;
-    height: 335px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(213, 220, 223);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    background-color: #d5dcdf;
+.img-wrapper {
+  width: 306px;
+  display: flex;
+  height: 335px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 220, 223);
 }
 
-.brand-img{
-    width: 280px;
-    transform: rotate(-20deg);
+.brand-img {
+  width: 280px;
+  transform: rotate(-20deg);
 }
 
 .product-heading {
-    font-size: 23px;
-    color: #351417;
-    margin-top: 0;
-    margin-bottom: 14px;
+  margin-top: 0;
+  font-size: 23px;
+  color: #351417;
+  margin-bottom: 14px;
 }
 
 .product-info {
-    color: rgb(101, 101, 101, .8);
-    font-size: 15px;
-    margin-bottom: 14px;
+  font-size: 15px;
+  margin-bottom: 14px;
+  color: rgb(101, 101, 101, 0.8);
 }
 
 .product-info-price {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.product-price, .add-card-btn {
-    font-size: 20px;
-    font-weight: bold;
-    color: #351417;
-    margin-top: 0;
+.product-price,
+.add-card-btn {
+  font-size: 20px;
+  font-weight: bold;
+  color: #351417;
+  margin-top: 0;
 }
 
 .add-card-btn {
-    font-size: 15px;
-    border: 1px solid transparent;
-    background-color: #F1BD07;
-    border-radius: 25px;
-    padding: 12px 10px;
-    cursor: pointer;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 12px 10px;
+  border-radius: 25px;
+  background-color: #f1bd07;
+  border: 1px solid transparent;
 }
 
-.add-card-btn:hover{
-    opacity: 0.9;
+.add-card-btn:hover {
+  opacity: 0.9;
 }
 
-.add-card-btn:active{
-    opacity: 0.8;
+.add-card-btn:active {
+  opacity: 0.8;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
-
